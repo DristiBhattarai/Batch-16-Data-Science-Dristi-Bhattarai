@@ -11,10 +11,10 @@ This repository contains solutions for Assignment 1 covering Git fundamentals, N
 ## How to Run This Project
 
 To set up and run this project, run the following commands sequentially in your terminal:
-
+```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python data/make_data.py
-
+```
 After running those commands, open answers/02_numpy.ipynb and answers/03_pandas.ipynb in Jupyter Notebook and execute all cells.
